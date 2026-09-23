@@ -26,3 +26,57 @@ header h1 {
   margin: 0;
   font-size: 2em;
 }
+nav ul {
+  padding: 0;
+  margin-top: 20px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #284139;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #AD8330;
+}
+
+/* MAIN HOME SECTION */
+.home {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(180deg, #A5AF94 0%, #C5CBB4 100%);
+}
+
+.intro h2 {
+  font-size: 2.2em;
+  color: #284139;
+}
+
+.intro p {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.shop-button {
+  display: inline-block;
+  background-color: #AD8330;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.shop-button:hover {
+  background-color: #8E6B29;
+}
