@@ -1,3 +1,28 @@
-h1{
-    color: darkolivegreen;
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #A5AF94;
+  color: #284139;
+  height: 100%;
+}
+
+
+header {
+  background-color: #A5AF94;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
 }
