@@ -80,3 +80,10 @@ nav a:hover {
 .shop-button:hover {
   background-color: #8E6B29;
 }
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #A5AF94;
+  color: #284139;
+  margin-top: auto;
+}
